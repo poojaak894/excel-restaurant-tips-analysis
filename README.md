@@ -36,18 +36,16 @@ The dataset includes:
   - During lunch, males tipped $95.11 and females tipped $88.40
 - Visualized findings using pie charts and bar charts
 - Performed correlation analysis
-  - Total bill (0.675) and group size (0.488) show strong positive correlation with tip amount
+  - Total bill (0.675) and group size (0.488) show positive correlations with tip amount, with total bill showing the stronger relationship.
   - Gender, smoker status, day, and time show negligible correlation with tips
 
 ## Model Building
-- Built a regression model to predict tip amounts
-- Built a multiple linear regression model that explained 46.9% of the variation in tip amounts.
+- Built a multiple linear regression model to predict tip amounts, explaining 46.9% of their variation (R² = 0.469).
 - The model is statistically significant (F = 34.72)
 - Key findings:
-  - Total bill is the strongest predictor (coefficient: 0.09437)
-  - Group size also positively impacts tips (coefficient: 0.1739)
-  - Gender, smoker status, day, and time do not significantly influence tip prediction
-
+  - Total bill amount is a statistically significant positive predictor of tip amount (coefficient: 0.09437).
+  - Group size has a positive estimated coefficient (0.1739), but it is not statistically significant at the 5% level (p-value: 0.0516).
+  - Gender, smoking status, day, and meal time are not statistically significant predictors.
 ## Dashboard
 An interactive dashboard was created to summarize insights:
 - Total customers: 243
@@ -62,9 +60,7 @@ An interactive dashboard was created to summarize insights:
 Key dashboard insights:
 - Weekend days (Saturday and Sunday) generate the highest total tips
 - Dinner hours contribute the majority of tips
-- Male customers consistently contribute higher tip amounts
+- Male customers contributed higher total tips than female customers in the analyzed dataset.
 
 ## Conclusion
-The analysis reveals clear patterns in customer tipping behavior. Tips are strongly influenced by spending level and group size, while timing factors such as dinner hours and weekends significantly increase tip amounts. The findings highlight that weekends and dinner periods are the most profitable times.
-
-
+The analysis reveals that total bill amount has a statistically significant positive relationship with tip amounts. Group size also shows a positive relationship, but it is not statistically significant at the 5% level. Although higher total tips were observed during weekends and dinner hours, these patterns do not establish that these factors independently influence tipping behaviour. The regression model explains 46.9% of the variation in tip amounts.
