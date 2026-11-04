@@ -41,7 +41,7 @@ The dataset includes:
 
 ## Model Building
 - Built a regression model to predict tip amounts
-- Model explains 46.9% of the variation in tip values
+- Built a multiple linear regression model that explained 46.9% of the variation in tip amounts.
 - The model is statistically significant (F = 34.72)
 - Key findings:
   - Total bill is the strongest predictor (coefficient: 0.09437)
@@ -65,6 +65,6 @@ Key dashboard insights:
 - Male customers consistently contribute higher tip amounts
 
 ## Conclusion
-The analysis reveals clear patterns in customer tipping behavior. Tips are strongly influenced by spending level and group size, while timing factors such as dinner hours and weekends significantly increase tip amounts. The findings highlight that weekends and dinner periods are the most profitable times, with higher customer activity and spending.
+The analysis reveals clear patterns in customer tipping behavior. Tips are strongly influenced by spending level and group size, while timing factors such as dinner hours and weekends significantly increase tip amounts. The findings highlight that weekends and dinner periods are the most profitable times.
 
 
