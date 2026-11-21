@@ -1,4 +1,4 @@
-# Restaurant Tips Analysis (Excel)
+# Restaurant Tips Analysis 
 
 ## Tools Used
 - Microsoft Excel
